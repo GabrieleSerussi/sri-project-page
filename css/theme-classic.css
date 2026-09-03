@@ -130,14 +130,14 @@ body { background-image: none; background-color: #ffffff; font-variation-setting
 }
 
 /* Institution logos as buttons (classic header, between the paper links and the cover) */
-.affil-logo-row { display: flex; flex-wrap: wrap; justify-content: center; align-items: stretch; gap: 12px; max-width: 1100px; margin: -16px auto 0; }
+.affil-logo-row { display: flex; flex-wrap: wrap; justify-content: center; align-items: stretch; gap: 12px; max-width: 1100px; margin: 0 auto var(--space-2xl); }
 .logo-btn { display: inline-flex; align-items: center; justify-content: center; height: 66px; padding: 10px 18px; background: #ffffff; border: 1px solid rgba(0,0,0,0.1); border-radius: 14px; text-decoration: none; transition: border-color .2s, transform .2s, box-shadow .2s; }
 .logo-btn:hover, .logo-btn:focus-visible { border-color: #111827; transform: translateY(-2px); box-shadow: 0 8px 20px rgba(0,0,0,0.08); }
 .logo-btn img { height: 40px; width: auto; max-width: 210px; object-fit: contain; display: block; }
 .logo-btn.is-square img { height: 46px; }
 .logo-btn.is-wordmark img { height: 24px; }
 @media (max-width: 700px) {
-  .affil-logo-row { gap: 8px; margin-top: -8px; }
+  .affil-logo-row { gap: 8px; margin-bottom: 22px; }
   .logo-btn { height: 56px; padding: 8px 12px; border-radius: 12px; }
   .logo-btn img { height: 32px; max-width: 150px; }
   .logo-btn.is-square img { height: 38px; }
